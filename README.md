@@ -2,6 +2,7 @@
 Try connect jk bms to inverter Easun 
 
 # Schematics
+```
                   RS485                      UART                        UART                     RS485/UART
 ┌────────────┐              ┌──────────┐                ┌─────────┐                ┌───────────┐              ┌───────────┐
 │            │              │          │<----- RX ----->│         │<----- RX ----->│ RS485 to  │<-----B- ---->│ Inverter  │
@@ -12,7 +13,7 @@ Try connect jk bms to inverter Easun
 └────────────┘              └──────────┘                │         │<----- RX ----->│ RS232 to  │<---- RX ---->│           │
                                                         │         │<----- TX ----->│ TTl module│<---- TX ---->│           │
                                                         └─────────┘                └───────────┘              └───────────┘
-
+```
 
 # References
 * https://github.com/syssi/esphome-seplos-bms
