@@ -17,6 +17,7 @@ Try connect jk bms to inverter Easun
 
 # References
 * https://github.com/syssi/esphome-jk-bms
+* https://github.com/syssi/esphome-smg-ii
 * https://github.com/syssi/esphome-seplos-bms
 * https://community.home-assistant.io/t/using-all-3-serials-on-esp32/526328/2
 * https://gist.github.com/vladyspavlov/d7819b255a81ea45659e63a1a92a66b2#file-battery-bms-invertor-yaml
